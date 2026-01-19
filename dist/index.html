@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTA FOOD - L'Excellence de la Glace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FFFFFF;
+            overflow-x: hidden;
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        @keyframes soundWave {
+            0%, 100% { height: 4px; }
+            50% { height: 16px; }
+        }
+        .wave-bar {
+            width: 3px;
+            background-color: #0EA5E9;
+            margin: 0 1px;
+            border-radius: 2px;
+            animation: soundWave 1s infinite ease-in-out;
+        }
+        .wave-bar:nth-child(2) { animation-delay: 0.2s; }
+        .wave-bar:nth-child(3) { animation-delay: 0.4s; }
+        .wave-bar:nth-child(4) { animation-delay: 0.6s; }
+
+        @keyframes scrollHorizontal {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-scroll-horizontal {
+            display: flex;
+            width: max-content;
+            animation: scrollHorizontal 50s linear infinite;
+        }
+
+        @keyframes scrollReverse {
+            0% { transform: translateX(-50%); }
+            100% { transform: translateX(0); }
+        }
+        .animate-scroll-reverse {
+            display: flex;
+            width: max-content;
+            animation: scrollReverse 60s linear infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(1deg); }
+        }
+        .animate-float {
+            animation: float 8s infinite ease-in-out;
+        }
+
+        @keyframes float-delayed {
+            0%, 100% { transform: translateY(-8px) rotate(-1deg); }
+            50% { transform: translateY(8px) rotate(0deg); }
+        }
+        .animate-float-delayed {
+            animation: float-delayed 10s infinite ease-in-out;
+        }
+
+        @keyframes parallax-bg {
+            0% { transform: translateX(0) scale(1); }
+            50% { transform: translateX(-10%) scale(1.05); }
+            100% { transform: translateX(0) scale(1); }
+        }
+        .animate-parallax-bg {
+            animation: parallax-bg 80s linear infinite;
+        }
+
+        @keyframes morph-svg {
+            0% { border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%; }
+            50% { border-radius: 60% 40% 30% 70% / 40% 60% 30% 70%; }
+            100% { border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%; }
+        }
+        .animate-morph {
+            animation: morph-svg 15s infinite ease-in-out;
+        }
+
+        @keyframes slide-up-fade {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-slide-up-fade {
+            animation: slide-up-fade 0.8s ease-out forwards;
+        }
+
+        @keyframes scan-line {
+            0% { transform: translateY(-100%); opacity: 0; }
+            50% { opacity: 0.3; }
+            100% { transform: translateY(200%); opacity: 0; }
+        }
+        .animate-scan {
+            animation: scan-line 4s infinite linear;
+        }
+
+        @keyframes draw-path {
+            to { stroke-dashoffset: 0; }
+        }
+        .animate-draw {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: draw-path 5s linear infinite;
+        }
+
+        @keyframes ken-burns {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.15); }
+        }
+        .animate-ken-burns {
+            animation: ken-burns 15s ease-out forwards;
+        }
+
+        @keyframes card-entry {
+            0% { opacity: 0; transform: translateY(40px) scale(0.98); filter: blur(4px); }
+            100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+        }
+        .animate-card-entry {
+            opacity: 0;
+            animation: card-entry 0.7s cubic-bezier(0.2, 1, 0.3, 1) forwards;
+        }
+
+        .perspective-container {
+            perspective: 1200px;
+        }
+        
+        .tilt-card {
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .tilt-card:hover {
+            transform: rotateY(8deg) rotateX(4deg) scale(1.03);
+            z-index: 20;
+        }
+
+        .mask-fade-edges {
+            mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+        }
+
+        /* Utility to hide scrollbar but keep functionality */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-DofRzCwK.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>

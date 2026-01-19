@@ -1,0 +1,7 @@
+{
+  "name": "TTA FOOD - L'Excellence de la Glace",
+  "description": "Site vitrine moderne pour TTA FOOD, spécialisé dans les solutions de crème glacée avec GEMM, Clabo et IceTeam 1927.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
