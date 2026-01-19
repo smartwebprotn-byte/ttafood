@@ -98,7 +98,7 @@ const Hero: React.FC = () => {
           className="w-full h-full object-cover"
           style={{ transform: `translateY(${mainContentParallax}px)` }}
         >
-          <source src="/dist/images/dv.mp4" type="video/mp4" />
+          <source src="/images/dv.mp4" type="video/mp4" />
         </video>
         {/* Cinematic Overlays */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20"></div>

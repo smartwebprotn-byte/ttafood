@@ -7,12 +7,12 @@ const Footer: React.FC = () => {
       {/* Visual Banner */}
       <div className="relative h-32 overflow-hidden flex grayscale opacity-30 hover:grayscale-0 transition-all duration-700">
         {[
-          '/dist/images/a.png',
-          '/dist/images/b.png',
-          '/dist/images/c.jpg',
-          '/dist/images/d.jpg',
-          '/dist/images/e.png',
-          '/dist/images/f.png'
+          '/images/a.png',
+          '/images/b.png',
+          '/images/c.jpg',
+          '/images/d.jpg',
+          '/images/e.png',
+          '/images/f.png'
         ].map((url, i) => (
           <div key={i} className="flex-1 min-w-[200px]">
             <img

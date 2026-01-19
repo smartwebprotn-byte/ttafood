@@ -9,7 +9,7 @@ const BrandsSection: React.FC = () => {
       color: '#0EA5E9',
       description: 'Leaders mondiaux en machines pour gelato artisanal depuis 1927. Réunissant Cattabriga, Coldelite et Promag.',
       specialties: ['Pasteurisateurs PSK PRO', 'Turbines Multifreeze', 'Machines Combinées Compacta'],
-      image: '/dist/images/iceteam.jpg',
+      image: '/images/iceteam.jpg',
       link: 'https://www.iceteam1927.it/'
     },
     {
@@ -18,7 +18,7 @@ const BrandsSection: React.FC = () => {
       color: '#9333EA',
       description: 'Leader mondial du design et fabrication de vitrines réfrigérées italiennes premium pour gelato.',
       specialties: ['Vitrines ORION Tecnica', 'Série ITALIANA', 'TRILOGY Luxury'],
-      image: '/dist/images/clabo.jpg',
+      image: '/images/clabo.jpg',
       link: 'https://www.clabo.it/en/'
     },
     {
@@ -27,7 +27,7 @@ const BrandsSection: React.FC = () => {
       color: '#F59E0B',
       description: 'Excellence italienne en réfrigération commerciale. Expertise en blast chillers et cellules de surgélation.',
       specialties: ['Blast Chillers BCB/BCC', 'Série RUNNER', 'Armoires Roll-In'],
-      image: '/dist/images/ff.png',
+      image: '/images/ff.png',
       link: 'https://www.gemm-srl.com/fr/'
     }
   ];

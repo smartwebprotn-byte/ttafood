@@ -3,12 +3,12 @@ import React from 'react';
 
 const SubHero: React.FC = () => {
   const images = [
-    "/dist/images/a.png",
-    "/dist/images/b.png",
-    "/dist/images/c.jpg",
-    "/dist/images/d.jpg",
-    "/dist/images/e.png",
-    "/dist/images/f.png"
+    "/images/a.png",
+    "/images/b.png",
+    "/images/c.jpg",
+    "/images/d.jpg",
+    "/images/e.png",
+    "/images/f.png"
   ];
 
   const duplicatedImages = [...images, ...images];

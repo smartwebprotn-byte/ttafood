@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     name: 'PSK PRO 65',
     brand: 'ICETEAM 1927',
     category: 'pasteurizer',
-    image: '/dist/images/a.png',
+    image: '/images/a.png',
     specs: {
       dimensions: '520 x 730 x 1180 mm',
       power: '6.5 kW',
@@ -32,7 +32,7 @@ export const PRODUCTS: Product[] = [
     name: 'PSK PRO 125',
     brand: 'ICETEAM 1927',
     category: 'pasteurizer',
-    image: '/dist/images/b.png',
+    image: '/images/b.png',
     specs: {
       dimensions: '620 x 840 x 1290 mm',
       power: '9.2 kW',
@@ -45,7 +45,7 @@ export const PRODUCTS: Product[] = [
     name: 'MIX 7 Easymix',
     brand: 'ICETEAM 1927',
     category: 'pasteurizer',
-    image: '/dist/images/c.jpg',
+    image: '/images/c.jpg',
     specs: {
       dimensions: '380 x 620 x 480 mm',
       power: '2.8 kW',
@@ -60,7 +60,7 @@ export const PRODUCTS: Product[] = [
     name: 'Multifreeze PRO 15/75',
     brand: 'ICETEAM 1927',
     category: 'batch-freezer',
-    image: '/dist/images/d.jpg',
+    image: '/images/d.jpg',
     specs: {
       dimensions: '720 x 920 x 1420 mm',
       power: '11.5 kW',
@@ -73,7 +73,7 @@ export const PRODUCTS: Product[] = [
     name: 'Multifreeze PRO 20/100',
     brand: 'ICETEAM 1927',
     category: 'batch-freezer',
-    image: '/dist/images/e.png',
+    image: '/images/e.png',
     specs: {
       dimensions: '820 x 1050 x 1520 mm',
       power: '14.0 kW',
@@ -86,7 +86,7 @@ export const PRODUCTS: Product[] = [
     name: 'EFFE 30 Vertical',
     brand: 'ICETEAM 1927',
     category: 'batch-freezer',
-    image: '/dist/images/f.png',
+    image: '/images/f.png',
     specs: {
       dimensions: '580 x 780 x 1680 mm',
       power: '8.5 kW',
@@ -101,7 +101,7 @@ export const PRODUCTS: Product[] = [
     name: 'Compacta 8 Vario',
     brand: 'ICETEAM 1927',
     category: 'combined-machine',
-    image: '/dist/images/g.png',
+    image: '/images/g.png',
     specs: {
       dimensions: '650 x 900 x 1850 mm',
       power: '12.5 kW',
@@ -114,7 +114,7 @@ export const PRODUCTS: Product[] = [
     name: 'Compacta 4 Silver',
     brand: 'ICETEAM 1927',
     category: 'combined-machine',
-    image: '/dist/images/h.jpg',
+    image: '/images/h.jpg',
     specs: {
       dimensions: '480 x 750 x 1420 mm',
       power: '7.8 kW',
@@ -129,7 +129,7 @@ export const PRODUCTS: Product[] = [
     name: 'GEMM BCB/05',
     brand: 'GEMM',
     category: 'blast-freezer',
-    image: '/dist/images/ir00.jpg',
+    image: '/images/ir00.jpg',
     specs: {
       dimensions: '820 x 870 x 2060 mm',
       power: '2.2 kW',
@@ -142,7 +142,7 @@ export const PRODUCTS: Product[] = [
     name: 'GEMM BCB/10',
     brand: 'GEMM',
     category: 'blast-freezer',
-    image: '/dist/images/s5u1.jpg',
+    image: '/images/s5u1.jpg',
     specs: {
       dimensions: '820 x 870 x 2060 mm',
       power: '3.5 kW',
@@ -155,7 +155,7 @@ export const PRODUCTS: Product[] = [
     name: 'GEMM BCC/4008 Roll-In',
     brand: 'GEMM',
     category: 'blast-freezer',
-    image: '/dist/images/soft.jpg',
+    image: '/images/soft.jpg',
     specs: {
       dimensions: '1320 x 1050 x 2180 mm',
       power: '5.8 kW',
@@ -168,7 +168,7 @@ export const PRODUCTS: Product[] = [
     name: 'GEMM Runner 5',
     brand: 'GEMM',
     category: 'blast-freezer',
-    image: '/dist/images/bouche_a.png',
+    image: '/images/bouche_a.png',
     specs: {
       dimensions: '780 x 800 x 2000 mm',
       power: '2.0 kW',
@@ -183,7 +183,7 @@ export const PRODUCTS: Product[] = [
     name: 'Orion Tecnica 12',
     brand: 'CLABO',
     category: 'gelato-case',
-    image: '/dist/images/bouche_d.png',
+    image: '/images/bouche_d.png',
     specs: {
       dimensions: '1560 x 1100 x 1380 mm',
       power: '3.8 kW',
@@ -196,7 +196,7 @@ export const PRODUCTS: Product[] = [
     name: 'Orion Tecnica 18',
     brand: 'CLABO',
     category: 'gelato-case',
-    image: '/dist/images/bouche_e.png',
+    image: '/images/bouche_e.png',
     specs: {
       dimensions: '2160 x 1100 x 1380 mm',
       power: '4.8 kW',
@@ -209,7 +209,7 @@ export const PRODUCTS: Product[] = [
     name: 'Orion Italiana G12',
     brand: 'CLABO',
     category: 'gelato-case',
-    image: '/dist/images/bouche_i.jpg',
+    image: '/images/bouche_i.jpg',
     specs: {
       dimensions: '1660 x 1150 x 1420 mm',
       power: '4.2 kW',
@@ -222,7 +222,7 @@ export const PRODUCTS: Product[] = [
     name: 'Orion Trilogy 16',
     brand: 'CLABO',
     category: 'gelato-case',
-    image: '/dist/images/bouche_o.png',
+    image: '/images/bouche_o.png',
     specs: {
       dimensions: '1860 x 1120 x 1400 mm',
       power: '4.5 kW',
@@ -235,7 +235,7 @@ export const PRODUCTS: Product[] = [
     name: 'Orion Eden Pastry 10',
     brand: 'CLABO',
     category: 'gelato-case',
-    image: '/dist/images/bouche_u.png',
+    image: '/images/bouche_u.png',
     specs: {
       dimensions: '1360 x 920 x 1340 mm',
       power: '2.8 kW',
@@ -250,7 +250,7 @@ export const PRODUCTS: Product[] = [
     name: 'Softy Freeze SF200',
     brand: 'ICETEAM 1927',
     category: 'soft-ice',
-    image: '/dist/images/a.png',
+    image: '/images/a.png',
     specs: {
       dimensions: '520 x 680 x 1450 mm',
       power: '3.2 kW',
@@ -263,7 +263,7 @@ export const PRODUCTS: Product[] = [
     name: 'Cream Soft CS3',
     brand: 'ICETEAM 1927',
     category: 'soft-ice',
-    image: '/dist/images/b.png',
+    image: '/images/b.png',
     specs: {
       dimensions: '680 x 780 x 1520 mm',
       power: '4.8 kW',
@@ -278,7 +278,7 @@ export const PRODUCTS: Product[] = [
     name: 'Creamer Revolution',
     brand: 'ICETEAM 1927',
     category: 'pastry-custard',
-    image: '/dist/images/c.jpg',
+    image: '/images/c.jpg',
     specs: {
       dimensions: '480 x 720 x 1280 mm',
       power: '6.5 kW',
@@ -291,7 +291,7 @@ export const PRODUCTS: Product[] = [
     name: 'Pastry Chef Pro 60',
     brand: 'ICETEAM 1927',
     category: 'pastry-custard',
-    image: '/dist/images/d.jpg',
+    image: '/images/d.jpg',
     specs: {
       dimensions: '580 x 850 x 1380 mm',
       power: '9.0 kW',

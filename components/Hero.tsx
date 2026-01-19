@@ -4,25 +4,25 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 const Hero: React.FC = () => {
   const slides = [
     {
-      url: "/dist/images/bouche_d.png",
+      url: "/images/bouche_d.png",
       title: "Excellence Italienne",
       subtitle: "Vitrines CLABO",
       duration: 5000
     },
     {
-      url: "/dist/images/ir00.jpg",
+      url: "/images/ir00.jpg",
       title: "Innovation ICETEAM",
       subtitle: "Turbines & Pasteurisateurs",
       duration: 5000
     },
     {
-      url: "/dist/images/s5u1.jpg",
+      url: "/images/s5u1.jpg",
       title: "Précision GEMM",
       subtitle: "Blast Chillers Premium",
       duration: 5000
     },
     {
-      url: "/dist/images/soft.jpg",
+      url: "/images/soft.jpg",
       title: "Gelato Perfetto",
       subtitle: "Depuis 1927 - Cattabriga",
       duration: 5000

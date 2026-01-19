@@ -106,7 +106,7 @@ const App: React.FC = () => {
                     <div className="relative group md:order-2">
                        <div className="absolute -inset-4 bg-[#0EA5E9]/5 rounded-[3rem] -rotate-2 group-hover:rotate-0 transition-transform duration-700"></div>
                        <img
-                          src="/dist/images/g.png"
+                          src="/images/g.png"
                           className="relative rounded-[2.5rem] shadow-2xl z-10"
                           alt="Machine Excellence"
                        />
